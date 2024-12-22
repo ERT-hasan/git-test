@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILTER APPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="filter-container">
+        <div class="search-container">
+            <input type="text"
+             id="search-input"
+              placeholder="Search...">
+              <button id="search-btn">search</button>
+        </div>
+        <div class="category-container">
+            <div class="category-btn"
+            data-category="all">All Products</div>
+            <div class="category-btn"
+            data-category="Electronics">Electronics</div>
+            <div class="category-btn"
+            data-category="Clothing">Clothing</div>
+            <div class="category-btn"data-category="Home & Garden ">Home & Garden</div>
+
+        </div>
+    </div>
+    <div id="products-list">
+        <div class="product-item"
+        data-category="Electronics">
+        <h3>SmartPhone</h3>
+        <p>Description of SmartPhone products</p>
+    </div>
+    <div class="product-item"
+    data-category="Clothing">
+    <h3>T-Shirt </h3>
+    <p>Description of t-shirt products.</p>
+
+    </div>
+    <div class="product-item"
+    data-category="Home">
+    <h3>Coffe-Maker</h3>
+    <p>Description of Coffe-Maker products.</p>
+
+    </div>
+    <div class="product-item"
+    data-category="Electronics">
+    <h3>Laptop</h3>
+    <p>Description of laptop products</p>
+
+    </div>
+    <div class="product-item"
+    data-category="Clothing">
+    <h3>Hoodie</h3>
+    <p>Description of hoodies product</p>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
